@@ -1,3 +1,6 @@
+# Python Invaders manual
+-I apologize to english users, this manual is only in czech and so is basicaly half of the code, it's my first project so I was more focused on the functionality than on the form and state of the code. I hope you understand.
+
 '''
 ####Manuál k Python Invaders:##########################################################################################
 
