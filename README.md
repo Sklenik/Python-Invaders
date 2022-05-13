@@ -1,37 +1,37 @@
-# Python Invaders manual
--I apologize to english users, this manual is only in czech and so is basicaly half of the code, it's my first project so I was more focused on the functionality than on the form and state of the code. I hope you understand.
+# Python Invaders
+- This is my version of the 1978 videogame **SPACE INVADERS**
+- I apologize to english only users, half of the code is in czech, variables and comments alike. It's because this was my first project and I was more focused on the actual functionality than on the styling or general state of the code. 
 
-'''
-####Manuál k Python Invaders:##########################################################################################
+### PYTHON INVADERS MANUAL
 
-Je NUTNÉ spustit script tak, aby pro něj byl root složka invaders,
-tedy script musí být spouštěn jako "invaders:/"
-jelikož pracuje s ikonami a zvuky ve vedlejších dvou složkách, viz například:
+#### Launching the game
+- To launch the game, open the */invaders* folder as root in any IDE and launch the *invaders_aplha.py* as a script.
+- It is important to launch the game as a script, in such a way that the root folder is the *invaders/* folder. Otherwise it won't work.
+- You might ask why so complicated. Well, this was my first project, so, yeah, not really optimalized for general use. There is no .exe file, you are launching a script, and because of that, it must be launched exactly from the */invaders* path, so it can operate with paths like this one:
 
-turtle.register_shape("Sprites/Hrac/Laser_Cannon.gif")
+`turtle.register_shape("Sprites/Hrac/Laser_Cannon.gif")`
 
-############Upozornění: ############################################################################################################
-Hra byla vytvořena v Microsoft Visual Studio Code, je určena ke spouštění v tomto programu, neručím za potíže
-způsobené spouštěním v jiných programech či editorech.
-Hra je také bohužel funkční pouze na operačních systémech Windows, neboť používá modul Winsound.
+#### Notice
+- The game was made in python 3.9 in microsoft visual studio code IDE, where it was always working. I am not responsible for any crashes in other IDE's or python versions and will not update the code to make it compatible with other programs.
+- The game uses the winsound library, so the game might work on apple and linux, but there will be no sound. I am not porting the sound code to be multiplatform, sorry.
+- Do not open *invaders_alpha.py* directly. Any attempts to do so will lead to crashes and might corrupt the code. Launch the game as a script from an IDE.
+- Do not move or rename any files, you will most likely break the game.
 
-Všechny pokusy o otevření souboru invaders_aplha.py skončí crashem. Je nutno spouštět program ve složce!
-NIC se nesmí v zájmu funkcionality přejmenovávat!!!
+#### Controls and interface
 
+- The game is simmilar to the original space invaders from 1978, really simple black and white game.
+- The player is playing as a cannon in the bottom of the screen. You can move using the left and right arrow keys, and shoot using spacebar.
+- In the top left corner is a score counter. To win the game, shoot all invaders from the sky. If you manage to do so or fail, a message will be displayed, offering you restarting the game with the R key, or quitting with the esc key, and displaying your final score.
 
-###########Popis a Ovládání: #############################################################################################################
-Hra je jakási zjednoduššená modifikace hry Space Invaders, cílem je sestřelit všechny ufony než se dostanou 
-k pozici hráče, v případě výhry či prohry je hráčovi sděleno, jestli si přeje pokračovat nebo skončit,
-po celou dobu je také na obrazovce skóre.
+# Credit
+Created: 24.1.2022 by me.
 
-Ovládání:
-střílení: mezerník
-pohyb: šipkami doleva a doprava
+Finished: 7.2.2022 by me.
 
-##########Dodatek: ##############################################################################################################
-Vytvořeno: 24.1.2022
-Dokončeno: 7.2.2022
+You are free to play the game or use my code, however please do not claim this as your work, it took me some time and I wouldn't like seeing this displayed elsewhere. There are many tutorials for simmilar python games on YouTube and else on the internet, you can make your own.
 
-Prosím nekopírovat, hra mi dala hodně práce, i když se nejedná o bůhvíjak složitý program.
-'''
+Thanks and have fun.
+
+-*Sklenik*
+
 
